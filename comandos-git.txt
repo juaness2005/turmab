@@ -1,0 +1,58 @@
+GIT:
+
+GIT: Git é um sistema de controle de versão distribuído.
+Criado por Linus Torvalds no início dos anos 2000 (o mesmo criador do Linux). 
+
+TIPOS DE VERSION CONTROL SYSTEM (VCS):
+Local Version Control System (LVCS): como o próprio nome diz, é um local
+Centralized Version Control System (CVCS): Um servidor mantém todos os arquivos.
+Distributed Version Control System (DVCS): Cada cliente tem uma cópia de todo repositório.
+
+Para que serve:
+Rastreia alterações em arquivos ao longo do tempo.
+Permite que você volte a versões anteriores.
+
+Facilita o trabalho em equipe, trabalhando no mesmo projeto simultaneamente.
+
+Benefícios do Controle de versão:
+Rastreabilidade: Saber exatamente quem mudou, quando e o que.
+Experiência: Sem medo: Experimente novas ideias sem medo de perder o trabalho atual.
+Organização: Mantenha seu projeto organizado, mesmo com muitas alterações.
+Integração com ferramentas modernas: GitHub, GitLab, e outras plataformas facilitam a colaboração e o gerenciamento de projetos.
+
+Branch é uma linha de desenvolvimento independente.
+
+NAVEGAÇÕES:
+Como entrar em uma pasta: cd + nome-da-pasta.
+Como sair da pasta atual: cd ..
+Como listar os arquivos: dir ou ls (ls as pastas ficam com as cores destacadas)
+como ver o caminho completo da pasta: pwd.
+Como voltar para a pasta raiz: cd ~
+Como acessar uma pasta com o nome composto, por exemplo: (2 páginas): “nome entre aspas”
+
+
+
+MANIPULAÇÃO DE PASTA:
+Para criar: mkdir
+Para renomear: mv nome-atual novo-nome
+Para mover uma pasta: mv end/pasta/antiga end/pasta/nova
+Para remover: rmdir nome-da-pasta
+Para deletar a pasta junto os arquivos: rm -r
+
+MANIPULAÇÃO DE PASTAS E ARQUIVOS:
+Criando pasta com arquivo: mkdir nome-da-pasta && touch nome-do-arquivo.txt
+Criar arquivo com conteúdo: echo “conteúdo” > nome-do-arquivo.txt
+Criar um arquivo vazio: touch nome-do-arquivo.txt
+Criar uma pasta vazia: mkdir nome-da-pasta
+
+MANIPULAÇÃO DE ARQUIVOS:
+Renomear um arquivo: mv nome-atual.txt  nome-novo.txt
+Mover um arquivo: mv end/atual/arquivo end/novo/arquivo
+
+COPIAR ARQUIVOS
+Copiar arquivo: cp nome-arquivo.txt caminho/destino/
+Copiar pasta: cp-r nome-pasta caminho/destino/
+
+pwd - retorna o caminho aberto do Git Bash
+clear - Limpa o terminal no Git Bash ou ctrl + l
+exit  - Fecha o terminal do git ou alt + f4
